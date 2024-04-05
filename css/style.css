@@ -29,6 +29,9 @@
     bottom: 45px; 
     z-index: 99;
 }
+.ma{
+    color: white;
+}
 
 
 /*** Heading ***/
@@ -113,12 +116,12 @@ h6,
 
 .sticky-top.navbar-light .navbar-nav .nav-link {
     padding: 20px 0;
-    color: var(--dark) !important;
+    color: #2283c6 !important;
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-    color: rgb(68, 147, 179) !important;
+    color: black !important;
 }
 
 .navbar-light .navbar-brand h1 {
@@ -169,6 +172,7 @@ h6,
         left: 0;
         border-bottom: 1px solid rgba(256, 256, 256, .1);
         z-index: 999;
+        background: #2980b9;
     }
     
     .sticky-top.navbar-light {
@@ -203,16 +207,17 @@ h6,
     }
 
     .sticky-top.navbar-light .btn {
-        color: rgb(254, 255, 255);
-        background: rgb(84, 190, 231);
+        color: white;
+        background:#2980b9;
     }
 }
 
 
 /*** Hero Header ***/
 .hero-header {
-    /* margin-bottom: 6rem; */
-    padding: 10rem 0;
+    /* margin-bottom: 2rem;  */
+    padding-top: 10rem ;
+    padding-bottom: 10rem;
     background:
         url(../img/blob-top-left.png),
         url(../img/blob-top-right.png),
@@ -233,7 +238,7 @@ h6,
 
 @media (max-width: 991.98px) {
     .hero-header {
-        padding: 2rem 0 rem 0;
+        padding-top: 8rem;
     }
 }
 
@@ -327,7 +332,8 @@ h6,
         url(../img/blob-top-right.png),
         url(../img/blob-bottom-left.png),
         url(../img/blob-bottom-right.png),
-        url(../img/blob-center.png);
+        url(../img/blob-center.png),
+        #2980b9;
     background-position:
         left 0px top 0px,
         right 0px top 0px,
@@ -342,7 +348,7 @@ h6,
 .service-item {
     position: relative;
     padding: 45px 30px;
-    background: var(--light);
+    background: #2980b9;
     overflow: hidden;
     transition: .5s;
     box-shadow: 2px black;
@@ -413,7 +419,7 @@ h6,
 #portfolio-flters li {
     display: inline-block;
     font-weight: 500;
-    /* color: var(--dark); */
+    color: #2980b9; 
     cursor: pointer;
     transition: .5s;
     border-bottom: 2px solid transparent;
@@ -490,10 +496,13 @@ h6,
     align-items: center;
     justify-content: center;
     color: white;
-    background: var(--light);
+    background: #2980b9;
     border-radius: 60px;
     font-size: 22px;
     transition: .5s;
+}
+.mb{
+    color:#2283c6;
 }
 
 .testimonial-carousel .owl-nav .owl-prev:hover,
@@ -522,13 +531,18 @@ h6,
     padding-top: 9rem; */
     background:
         url(../img/bg-top.png),
-        url(../img/map.png);
+        url(../img/map.png),
+        #227ec9;
     background-position:
         center top,
         center center;
     background-repeat: no-repeat;
+    padding-top: 50px;
 }
 
+.fa{
+    color: white;
+}
 .footer .btn.btn-social {
     margin-right: 5px;
     width: 40px;
@@ -670,7 +684,8 @@ h6,
     height: 200px;
  }
  .text-wight{
-    color: #fff;
+    color: black;
+    font-weight: bold;
  }
  .img-padding{
     padding-left: 40px;

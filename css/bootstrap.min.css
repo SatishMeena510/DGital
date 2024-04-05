@@ -124,7 +124,8 @@ h6,.h6 {
 
 p {
     margin-top: 0;
-    margin-bottom: 1rem
+    margin-bottom: 1rem;
+    color: #2980b9;
 }
 
 abbr[title],abbr[data-bs-original-title] {
@@ -3733,7 +3734,7 @@ textarea.form-control-lg {
 .dropdown-item.active,.dropdown-item:active {
     color: #fff;
     text-decoration: none;
-    background-color: #6222CC
+    background-color: #228ecc
 }
 
 .dropdown-item.disabled,.dropdown-item:disabled {
@@ -7521,7 +7522,8 @@ textarea.form-control-lg {
 
 .py-3 {
     padding-top: 1rem !important;
-    padding-bottom: 1rem !important
+    padding-bottom: 1rem !important;
+    background-color: #2184b0;
 }
 
 .py-4 {
@@ -7531,7 +7533,7 @@ textarea.form-control-lg {
 
 .py-5 {
     /* padding-top: 6rem !important; */
-    padding-bottom: 3rem !important;
+    padding-bottom: 1rem !important;
 }
 
 .pt-0 {
@@ -7757,7 +7759,7 @@ textarea.form-control-lg {
 }
 
 .text-secondary {
-    color: white !important;
+    color: #2184b0 !important ;
     font-size: 20px; 
     justify-content: center;
 }
@@ -7779,7 +7781,7 @@ textarea.form-control-lg {
 }
 
 .text-light {
-    color: #228fb4 !important
+    color: white !important
 }
 
 .text-dark {
@@ -7787,7 +7789,7 @@ textarea.form-control-lg {
 }
 
 .text-white {
-    color: #228fb4 !important
+    color: white!important
 }
 
 .text-body {
@@ -7835,7 +7837,7 @@ textarea.form-control-lg {
 }
 
 .bg-light {
-    background: linear-gradient(120deg,#2980b9,#8e44);
+    background: #2980b9;
 }
 
 .bg-dark {
@@ -7847,7 +7849,7 @@ textarea.form-control-lg {
 }
 
 .bg-white {
-    background: linear-gradient(120deg,#2980b9,#8e44);
+    /* background: linear-gradient(120deg,#2980b9,#8e44); */
 }
 
 .bg-transparent {

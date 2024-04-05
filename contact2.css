@@ -68,6 +68,9 @@ form {
   width: auto;
   display: flex;
   flex-direction: column;
+  background: #2384c5;
+  padding: 20px;
+  border-radius: 30px;
 
 }
 form .title {
@@ -85,17 +88,17 @@ form .form-control {
 }
 form .form-control.thick {
   height: 3.3rem;
-  padding: 1rem 3.5rem;
+  /* padding: 1rem 3.5rem; */
 }
 form .form-control:focus {
   background-color: #f2f6f8;
   border: none;
   box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.11);
 }
-form .message .form-control {
+/* form .message .form-control {
   padding-left: 55px;
   padding-right: 50px;
-}
+} */
 form ::-moz-placeholder {
   font-family: "Quicksand", sans-serif;
   font-weight: 600;
@@ -134,7 +137,7 @@ form .icon {
   padding: 0 3rem;
   border: 0;
   border-radius: 3rem;
-  background-image: linear-gradient(131deg, #2899b6, #318bb4, #1284b1, #2384c5);
+  /* background-image: linear-gradient(131deg, #2899b6, #318bb4, #1284b1, #2384c5); */
   background-size: 300% 100%;
   transition: all 0.3s ease-in-out;
 }
